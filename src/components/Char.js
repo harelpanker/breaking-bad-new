@@ -69,7 +69,7 @@ const Card = styled.li`
   .wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     z-index: 3;
     width: 100%;
 
@@ -80,6 +80,7 @@ const Card = styled.li`
       border-radius: 50%;
       background-color: rgba(241, 246, 249, 0.3);
       padding-right: 4px;
+      margin-left: 20px;
     }
   }
 `;
